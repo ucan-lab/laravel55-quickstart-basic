@@ -15,7 +15,7 @@ use App\Task;
 use Illuminate\Http\Request;
 
 Route::get('/', function () {
- //
+    return view('tasks');
 });
 
 Route::post('/task', function (Request $request) {
